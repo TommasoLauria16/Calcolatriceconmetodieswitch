@@ -14,7 +14,7 @@ namespace funzioni_matematiche_calc
         public static double Operazioni(double n1, double n2)
         {
             double risultato=0;
-            Console.WriteLine("1=somma, 2=differenza, 3=moltiplicazione, 4=divisione ");
+            Console.WriteLine("1=somma, 2=differenza, 3=moltiplicazione, 4=divisione");
             Console.WriteLine("seleziona l'operazione ");
             string str = Console.ReadLine();
             switch (str)
