@@ -10,8 +10,8 @@ namespace Calc1._0
         {
             double n1 = operazioniMatematiche.Numero();
             double n2 = operazioniMatematiche.Numero();
-            double risultato = operazioniMatematiche.Operazioni(n1, n2);
-            Console.WriteLine($"il risultato dell'operazione scelta è {risultato}");
+            double? risultato = operazioniMatematiche.Operazioni(n1, n2);
+            Console.WriteLine($"{risultato}");
         }
     }
 }
